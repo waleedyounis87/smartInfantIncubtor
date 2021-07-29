@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Infant Incubator"
+        android:gravity="center"
+        android:textSize="70px"
+        android:layout_margin="100px"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:gravity="center"
+        android:textSize="50px"/>
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Full Name"
+        android:textColorHint="#AAAAAA"
+        android:background="@drawable/edtxt_style"
+        android:paddingLeft="100px"
+        android:paddingBottom="35px"
+        android:paddingTop="35px"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginTop="150px" />
+    <EditText
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:textColorHint="#AAAAAA"
+        android:background="@drawable/edtxt_style"
+        android:paddingLeft="100px"
+        android:paddingBottom="35px"
+        android:paddingTop="35px"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="50px"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/passwordtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#AAAAAA"
+        android:background="@drawable/edtxt_style"
+        android:paddingLeft="100px"
+        android:paddingBottom="35px"
+        android:paddingTop="35px"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/phonetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone"
+        android:textColorHint="#AAAAAA"
+        android:background="@drawable/edtxt_style"
+        android:paddingLeft="100px"
+        android:paddingBottom="35px"
+        android:paddingTop="35px"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="50px"
+        android:inputType="phone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        android:id="@+id/signup"
+        android:background="@drawable/style_btn"
+        android:layout_marginLeft="180px"
+        android:layout_marginRight="150px"
+        android:layout_marginTop="50px" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have account, Login"
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="50px"/>
+
+
+
+</LinearLayout>

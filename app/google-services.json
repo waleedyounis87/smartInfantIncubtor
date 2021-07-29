@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1035019751399",
+    "project_id": "smart-infant-incubator-da68e",
+    "storage_bucket": "smart-infant-incubator-da68e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035019751399:android:4e45d890ce6dac431cb742",
+        "android_client_info": {
+          "package_name": "com.example.smartinfantincubator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035019751399-agpjv1grvic4s3fp9n6aprtqavknrqof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0UyptPNHYajXvMXHWEo6WpAXQQLh5bCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035019751399-agpjv1grvic4s3fp9n6aprtqavknrqof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
